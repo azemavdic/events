@@ -5,7 +5,6 @@ import { FaUser } from "react-icons/fa";
 import Link from "next/link";
 import AuthContext from "context/AuthContext";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Register = () => {
   const [username, setUsername] = useState("");

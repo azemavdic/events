@@ -1,7 +1,6 @@
 import { FaImage } from "react-icons/fa";
 import moment from "moment";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
