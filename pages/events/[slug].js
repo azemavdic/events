@@ -1,4 +1,3 @@
-import "react-toastify/dist/ReactToastify.css";
 import Link from "next/link";
 import Image from "next/image";
 import { API_URL } from "config";

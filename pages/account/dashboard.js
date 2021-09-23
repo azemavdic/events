@@ -4,7 +4,7 @@ import { API_URL } from "config";
 import styles from "@/styles/Dashboard.module.css";
 import DashboardEvent from "components/DashboardEvent";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
 import { useEffect, useContext } from "react";
 import { useRouter } from "next/router";
 import AuthContext from "@/context/AuthContext";

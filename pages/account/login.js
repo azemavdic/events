@@ -5,7 +5,6 @@ import Layout from "components/Layout";
 import { FaUser } from "react-icons/fa";
 import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
