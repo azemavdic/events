@@ -45,7 +45,7 @@ export default async (req, res) => {
       });
     }
   } else {
-    // res.setHeader("Allow", ["POST"]);
-    // res.status(405).json({ message: `Metoda ${req.method} nije dozvoljena` });
+    res.setHeader("Allow", ["POST"]);
+    res.status(405).json({ message: `Metoda ${req.method} nije dozvoljena` });
   }
 };
